@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kauã, Gustavo Mallman e Gustavo Brito">
+  <meta name="description" content="Noticias e shop de e-sports">
+  <meta name="keywords" content="e-sports, news, blog, games, carousel, gamers">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developers Team</title>
+  <link rel="shortcut icon" href="img/logo.png" >
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="scripts.js"></script>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="body">
+  <section>
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 80px;">
+      <div class="container-fluid" style="background-color: rgb(14, 14, 15);">
+        
+        <img class="img-logo" src="img/logo.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <h class="texto-navbar">Home</h>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#compras" style="font-size: 25px;">
+                <h class="texto-navbar">Shop</h>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="font-size: 25px;">
+                <h class="texto-navbar">Sobre Nós</h>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#rodape">Redes sociais</a></li>
+                <li><a class="dropdown-item" href="#nos">Sobre</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="" aria-label="Search"
+              style="background-color: rgb(27, 26, 26)">
+            <button class="btn btn-outline-success" type="submit" style="background-color: rgb(82, 82, 82); border: none ; color: rgb(255, 255, 255);">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row" >
+      <div class="carrosel col-sm">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/cloud99.jpeg" class="d-block w-100" alt="" style="height: 495px;">
+              <div class="carousel-caption d-none d-md-block">
+                <b>
+                  <h2 style="color: black;">Developers Team no Mundial</h2>
+                </b>
+                <p style="color: black;">Developers Team vai competir no Mundial de CoD Warzone</p>
+                <p style="color: black;">imagem meramente ilustrativa</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/timeganhando.png" class="d-block w-100" alt="time" style="height: 495px;">
+              <div class="carousel-caption d-none d-md-block">
+                <b>
+                  <h2 style="color: black;">Developers Team Campeões</h2>
+                </b>                
+                <p style="color: black;">Developers Team vence campeonato regional de Apex Legends</p>
+                <p style="color: black;">imagem meramente ilustrativa</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/timeganhando2.jpg" class="d-block w-100" alt="..." style="height: 495px;">
+              <div class="carousel-caption d-none d-md-block">
+                <b>
+                  <h2 style="color: black;">Developers Team vencem campeonato</h2>
+                </b>               
+                <p style="color: black;">com uma grande ambição, o time de e-sports vence mais um campeonato em Sydney
+                </p>
+                <p style="color: black;">imagem meramente ilustrativa</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previsao</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Proximo</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="espaco col-sm">
+        </div>
+      </div>
+
+      <div class="borda1 espaço-comprar row">
+        <div class="borda1 compras col-4">
+          <div>
+            <div class="foto-compra col">
+              <img class="camisa" src="img/camisa-preta.jpg" alt="camisa do time">
+            </div>
+            
+            <div class="nome-produto">
+              Camisa Preta
+            </div>
+            <div class="preco-produto">
+              R$: 198,99
+              <div class="desconto">20% de desconto com Marnei Card</div>
+            </div>
+
+            <button class="btn btn-outline-primary" style="background-color: black;" style="border: none;">
+              <a href="loja.html" style="text-decoration: none;  border-radius: 3px; color: seashell;">COMPRAR</a></button>
+          </div>
+        </div> 
+
+          <div class="borda1 compras col-4">
+            <div>
+              <div class="foto-compra col">
+                <img class="camisa" src="img/camisa-fortnite.jpg" alt="camisa do time">
+              </div>
+              
+              <div class="nome-produto">
+                Camisa Fortnite
+              </div>
+              <div class="preco-produto">
+                R$: 179,50
+                <div class="desconto">20% de desconto com Marnei Card</div>
+              </div>
+  
+              <button class="btn btn-outline-primary" style="background-color: black;">
+                <a href="loja.html" style="text-decoration: none;  border-radius: 3px; color: seashell;">COMPRAR</a>
+              </button>
+            </div>
+            </div>
+
+            <div class="borda1 compras col-4">
+              <div>
+                <div class="foto-compra col">
+                  <img class="camisa" src="img/camisa-rosa.jpg" alt="camisa do time">
+                </div>
+                
+                <div class="nome-produto">
+                  Camisa Rosa
+                </div>
+                <div class="preco-produto">
+                  R$: 149,99
+                  <div class="desconto">20% de desconto com Marnei Card</div>
+                </div>
+    
+                <button class="btn btn-outline-primary" style="background-color: black; ">
+                  <a href="loja.html" style=" border-radius: 3px; text-decoration: none; color: seashell;">COMPRAR</a>
+                </button>
+              </div>
+              </div>
+
+          
+        </div>
+
+
+        <div id="compras" class="col-1"></div>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+          crossorigin="anonymous"></script>
+        
+        <div class="row"></div>
+          <div class="carrosel-games col-sm">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/warzone.webp" class="d-block w-100" alt="..." style="height: 450px;" style="margin-top: 5%;">
+              </div>
+              <div class="carousel-item">
+                <img src="img/apex-legends.jpg" class="d-block w-100" alt="..." style="height: 450px;">
+              </div>
+              <div class="carousel-item">
+                <img src="img/valorant.jpg" class="d-block w-100" alt="..." style="height: 450px;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div> 
+    </section>
+
+      <div class="row">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+      </div>
+      <footer>
+        <div class="footer">
+          <h3>Gostou do conteúdo?</h3>
+          
+          <ul class="sociais">
+           
+            <li><a href="https://twitter.com/gusmallmann"><i class="bi bi-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/kaua.walter/"><i class="bi bi-instagram"></i></a></li>
+            
+            <li><a href="https://www.linkedin.com/in/gustavo-brito-949558210?midToken=AQHCKazHgvRBPQ&midSig=1iiSm7uOc-3VQ1&trk=eml-email_job_alert_digest_01-header-48-profile&trkEmail=eml-email_job_alert_digest_01-header-48-profile-null-eu57pl%7Ekq5k34na%7Eqo-null-neptune%2Fprofile%7Evanity%2Eview&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BnAjNugkkR9qBRhmMe3Hqgg%3D%3D&midToken=AQHCKazHgvRBPQ"><i class="bi bi-linkedin" > </i></a></li>
+            <li><a href="https://www.instagram.com/gustabrito10/"><i class="bi bi-instagram"></i></a></li>
+          </ul>
+          <p>Quem somos? </p>
+          <p> Um trio que busca como profissao o desenvolvimento de sites e softwares sempre inovando em nossos projetos!</p>
+          <div class="footer-bot">
+            <p>copyright &copy;2021 developers team design by <span>DTeam</span></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+</body>
+
+</html>

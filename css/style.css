@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.body {
+    background-color: #090F12;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color:#16181B; */
+    height: auto;
+  
+}
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+.texto-navbar {
+    color: beige;
+    font-size: 25px;
+}
+/* a {
+    color: blue;
+} */
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#header {
+    display: flex;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+a {
+    color: coral;
+    text-decoration: none;
+}
+
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #btn-mobile {
+        display: block;
+    }
+    #navbar {
+        display: none;
+    }
+}
+
+a:hover {
+    background-color: gray;
+    transition: 1s;
+    border-radius: 6px;
+}
+
+#navbar {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+/* #navbar a {
+    display: block;
+    padding: .5rem;
+} */
+
+/* .logo{
+    /* border: blue solid; */
+
+/* height: 80px; */
+
+/* } */
+
+.menu {
+    border-radius: 10px;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-style: bold;
+    color: rgb(255, 255, 71);
+    font-size: 22px;
+    transition: 0.5s;
+    font-family: monospace;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu:hover {
+    background-color: #090F12;
+    text-decoration: yellow;
+    transition: 0.5s;
+    color: rgb(0, 89, 255);
+}
+
+.img-logo {
+    width: 160px;
+    height: 120px;
+    padding-left: 15px;
+}
+
+.carrosel {
+    border: solid #090F12;
+    height: 500px;
+   
+}
+
+.quem-somos {
+    /* border: yellow solid; */
+    height: 300px;
+    color: white;
+}
+
+.titulo-descricao {
+    /* border: coral solid; */
+    height: 110px;
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+}
+@media(min-width:400px){
+    
+    section{
+        width: 100%;
+        
+    }
+
+    .fotos{
+        height: 10px;
+        width: 10px;
+    }
+    .compras{
+        width: 50%;
+    }
+}
+
+@media (min-width:576px) {
+    img{
+        width: 100%;
+    }
+}
+.descricao {
+    
+    /* border: solid crimson; */
+    height: 190px;
+    text-align: justify;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dados-jogadores {
+    /* border: solid springgreen; */
+    height: 300px;
+}
+
+.foto-perfil {
+    /* border: solid orchid; */
+    height: 110px;
+}
+
+.fotos {
+    height: 100px;
+    width: 100px;
+    margin-left: 23%;
+    margin-top: 2%;
+    border-radius: 50%;
+}
+
+.descricao-perfil {
+    /* border: solid black; */
+    height: 190px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.espaco {
+    height: 35px;
+}
+
+.espaço-comprar{
+    display: flex;
+    width: 99%;
+    margin: auto;
+    
+}
+
+.compras {
+    border: rgb(8, 9, 15) solid;
+    max-height: 407px;
+    /* margin-top: 10px; */
+    padding: 15px;
+    transition: 0.7;
+    border-radius: 5px;
+    background-color: rgb(39, 38, 38);
+    /* margin-left: 1px; */
+
+}
+
+.compras:hover {
+    background-color: rgb(83, 83, 83);
+    transition: 0.8s;
+
+}
+
+.foto-compra {
+    width: 90%;
+    margin-bottom: -10%;
+}
+
+.camisa {
+ 
+    width: 340px;
+    height: 250px;
+    transition: 0.5;
+
+}
+
+.nome-produto {
+
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 5px 0;
+}
+
+.preco-produto {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black
+}
+
+.desconto {
+    
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.btn {
+
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.carrosel-games {
+    border: solid #090F12;
+    height: 350px;
+}
+
+.footer {
+    display: flex;
+    /* align-items: center; */
+    /* border: purple solid; */
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background-color: #081124;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 8%;
+    color: rgb(146, 146, 146);
+   
+}
+
+.sociais {
+    color: red;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.sociais li {
+    margin: 0 10px;
+}
+
+.sociais a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.sociais a:hover i {
+    color: darkblue;
+}
+
+.footer-bot {
+    background-color: #081112;
+    width: 100%;
+    padding: 20px 10px 20px 90px;
+    text-align: center;
+    /* margin-left: 80px;
+    margin-right: 40px; */
+   
+
+}
+
+.footer-bot p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bot span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    color: blanchedalmond;
+}
+
+.sociais a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-top: 5%;
+}
+
+.foooter p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+    <title>Camisas</title>
+</head>
+<body>
+    <div class="container">
+    <!-- /////////////// -->
+    <!-- compras -->
+    <!-- ////////////// -->
+    <div class="container-produtos">
+    <div class="espaço-comprar row">
+      
+
+     
+        <div class="compras col-4">
+          <div>
+            <div class="foto-compra col">
+              <img class="camisa" src="img/camisa-preta.jpg" alt="camisa do time">
+            </div>
+            
+            <div class="nome-produto">
+              Camisa Preta
+            </div>
+            <div class="preco-produto">
+              R$: 198,99
+              <div class="desconto">20% de desconto com Marnei Card</div>
+            </div>
+
+
+          </div>
+        </div> 
+
+          <div class="compras col-4">
+            <div>
+              <div class="foto-compra col">
+                <img class="camisa" src="img/camisa-fortnite.jpg" alt="camisa do time">
+              </div>
+              
+              <div class="nome-produto">
+                Camisa Fortnite
+              </div>
+              <div class="preco-produto">
+                R$: 179,50
+                <div class="desconto">20% de desconto com Marnei Card</div>
+              </div>
+
+            </div>
+            </div>
+
+            <div class="compras col-4">
+              <div>
+                <div class="foto-compra col">
+                  <img class="camisa" src="img/camisa-rosa.jpg" alt="camisa do time">
+                </div>
+                
+                <div class="nome-produto">
+                  Camisa Rosa
+                </div>
+                <div class="preco-produto">
+                  R$: 149,99
+                  <div class="desconto">20% de desconto com Marnei Card</div>
+                </div>
+    
+
+              </div>
+              </div>
+        </div>
+      </div>
+
+        
+        <div class="row"><div class="espaco col"></div></div>
+        
+        <!-- pagamento -->
+        <div class="row">
+
+            <div class="borda1 col-3"></div>
+            <div class="formulario col-sm-6">
+                <h2>Faça suas compras</h2>
+                <!-- VALORES DAS CAMISAS -->
+                <input type="hidden" id="precoPreta" value="198.99">
+                <input type="hidden" id="precoFortnite" value="179.50">
+                <input type="hidden" id="precoRosa" value="159.99">
+                <!-- //////////////// -->
+                <p>Camisas Pretas: <input type="number" id="valorPreta" placeholder=" QUANTAS?"></p>
+                <p>Camisa Fortnite: <input type="number" id="valorFortnite" placeholder="QUANTAS?"></p>
+                <p>Camisas Rosas: <input type="number" id="valorRosa" placeholder="QUANTAS?"></p>
+                <p>Insira o desconto: <input type="number" id="porcentagem" placeholder=" DESCONTO"></p>
+                <p>R$:<input type="number" id="resultado" readonly disabled placeholder="0" ><button onclick="calcularCompras(precoPreta, precoFortnite, precoRosa, valorPreta, valorFortnite, valorRosa, porcentagem)" class="calcular btn btn-outline-success" style="background-color: black;" style="border:none;">Calcular</button></p>
+                <button class="btn btn-dark">Comprar</button>
+            </div>
+            <div class="col-3"></div> 
+
+        </div>
+    </div>
+       
+</body>
+</html>
